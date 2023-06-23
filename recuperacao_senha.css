@@ -39,6 +39,10 @@ body {
     color: #222E50;
 }
 
+.cabecalho h3 a {
+    text-decoration: none;
+}
+
 .cabecalho button {
     height: 48px;
     width: 92px;
