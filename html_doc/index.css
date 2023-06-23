@@ -38,7 +38,7 @@ body {
 }
 .cabecalho h3 {
     position: absolute;
-    top: 28px;
+    top: 34px;
     left: 1192px;
     font-style: normal;
     font-weight: 700;
@@ -47,10 +47,15 @@ body {
     color: #222E50;
 }
 
+.cabecalho a {
+    text-decoration: none;
+    color: #222E50;
+}
+
 .cabecalho button {
     position: absolute;
     left: 1300px;
-    top: 28px;
+    top: 19px;
     height: 48px;
     width: 92px;
     background: #222E50;
@@ -118,6 +123,19 @@ form {
     border: 0 none;
     outline: 0;
     font-size: 19px;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+
+#foto {
+    width: 215px;
+    height: 203px;
+    top: 191px;
+    margin-left: 150px;
+    cursor: pointer;
 }
 
 form a {
