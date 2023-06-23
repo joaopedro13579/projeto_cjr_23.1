@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Recuperação de Senha</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="recuperacao_senha.css">
+        <link rel="icon" type="image/png" href="imagens/cjr.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="cabecalho">
+                <div class="caixa_logo">
+                    <img src="imagens/cjr.png" class="logo">
+                </div>
+
+                <h3>Criar Conta</h3>
+                <button>Entrar</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="logo_fundo">
+                <img src="imagens/cjr_grande.png">
+            </div>
+
+            <section class="caixa_nova_senha">
+                <h2>Bem vindo de volta, fulano! escolha sua nova senha</h2>
+
+                <form>
+                    <label for="senha_nova" class="legenda_input">Senha nova</label>
+                    <input type="password" id="senha_nova" class="input_padrao" required>
+
+                    <label for="confirmacao_senha" class="legenda_input">Digite novamente a senha</label>
+                    <input type="password" id="confirmacao_senha" class="input_padrao" required>
+
+                    <a href="#">Possui conta? Acesse aqui</a>
+                    <button class="botao_alterar_senha" onclick="verificaSenha(senha_nova, confirmacao_senha)">Alterar Senha</button>
+                </form>
+            </section>
+
+
+        </main>
+        <script src="recuperacao_senha.js"></script>
+    </body>
+</html>
