@@ -1,16 +1,27 @@
 body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    width: 1440px;
+    height: 939px;
 }
-
 .cabecalho {
     height: 86px;
     width: 1440px;
-    position: absolute;
     left: 0px;
     top: 0px;
     border-radius: 0px;
     background: #8BC34A;
+}
+.imagem1{
+    position: absolute;
+    top: 30px;
+    left: 166px;
+}
+.imagem2{
+    position: absolute;
+    top: 145px;
+    left: 290px;
+
 }
 
 .caixa_logo {
@@ -23,15 +34,14 @@ body {
 }
 
 .logo {
-    padding: 4px 32px;
+    padding: 1px 1px;
+    width: 124px;
+    height: 44px;
 }
-
 .cabecalho h3 {
     position: absolute;
-    left: 82.78%;
-    right: 10.97%;
-    top: 39.53%;
-    bottom: 38.37%;
+    top: 34px;
+    left: 1192px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -39,18 +49,17 @@ body {
     color: #222E50;
 }
 
-.cabecalho h3 a {
+.cabecalho a {
     text-decoration: none;
+    color: #222E50;
 }
 
 .cabecalho button {
+    position: absolute;
+    left: 1300px;
+    top: 19px;
     height: 48px;
     width: 92px;
-    position: absolute;
-    left: 90.28%;
-    right: 3.33%;
-    top: 22.09%;
-    bottom: 22.09%;
     background: #222E50;
     border-radius: 16px;
     border: none;
@@ -62,8 +71,11 @@ body {
 }
 
 main {
-    height: 939px;
-    width: 1440px;
+    height: 973px;
+    width: 1437px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
     background-color:#111E3E;
     border: 1px solid #000000;
 }
@@ -72,35 +84,22 @@ main {
     position: absolute;
     width: 778px;
     height: 451px;
-    left: 0px;
-    top: 238px;
+    top: 323px;
 }
-
-.caixa_nova_senha {
+.acesse_aqui{
+    top: 375px;
+}
+.caixa_cadastro {
     position: absolute;
     height: 723px;
     width: 547px;
-    margin: 150px 115px 131px 778px;
+    margin: 85px 115px 131px 778px;
     background: #222E50;
     border-radius: 10px;
 }
-
-.caixa_nova_senha h2 {
-    position: absolute;
-    width: 363px;
-    height: 186.71px;
-    left: 73px;
-    top: 95px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    color: #FFFFFF;
-    opacity: 0.7;
-}
-
 form {
     position: absolute;
-    top: 290px;
+    top: 220px;
     left: 73px;
     font-size: 16px;
     font-weight: 700;
@@ -113,19 +112,32 @@ form {
 .input_padrao {
     display: block;
     width: 401px;
-    height: 66px;
+    height: 58px;
     background: #D9D9D9;
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
     margin: 15px 0px;
-    font-size: 25px;  
+    font-size: 19px;  
 }
 
 .input_padrao:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-    font-size: 25px;
+    font-size: 19px;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+
+#foto {
+    width: 215px;
+    height: 203px;
+    top: 191px;
+    margin-left: 150px;
+    cursor: pointer;
 }
 
 form a {
@@ -140,11 +152,11 @@ form a {
     color: #111E3E;
 }
 
-.botao_alterar_senha {
+.botao_cadastrar {
     position: absolute;
     width: 283px;
     height: 50px;
-    margin: 73px 65px 94px 65px;
+    margin: 44px 65px 94px 65px;
     background: #D9D9D9;
     border-radius: 15px;
     border: none;
