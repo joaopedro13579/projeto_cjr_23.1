@@ -12,17 +12,7 @@ body {
     border-radius: 0px;
     background: #8BC34A;
 }
-.imagem1{
-    position: absolute;
-    top: 30px;
-    left: 166px;
-}
-.imagem2{
-    position: absolute;
-    top: 145px;
-    left: 290px;
 
-}
 
 .caixa_logo {
     position: absolute;
@@ -34,9 +24,7 @@ body {
 }
 
 .logo {
-    padding: 1px 1px;
-    width: 124px;
-    height: 44px;
+    padding: 4px 32px;
 }
 .cabecalho h3 {
     position: absolute;
