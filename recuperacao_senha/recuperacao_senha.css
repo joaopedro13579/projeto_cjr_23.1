@@ -43,6 +43,11 @@ body {
 
 .cabecalho h3 a {
     text-decoration: none;
+    color: #222E50;
+}
+
+.cabecalho h3 a:visited {
+    color: #222E50;
 }
 
 .cabecalho button {
@@ -61,6 +66,12 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: white;
+    text-decoration: none;
+}
+
+.cabecalho button a {
+    text-decoration: None;
+    color: white; 
 }
 
 main {
