@@ -58,6 +58,11 @@ body {
     color: white;
 }
 
+button a:visited {
+    color: white;
+
+}
+
 main {
     height: 973px;
     width: 1437px;
