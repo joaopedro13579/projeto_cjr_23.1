@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="feed_perfil.css">
+    <link rel="icon" href="../imagens_feed/cjr.svg"/>
+    <title>Feed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="caixa_logo">
+            <img src="../imagens_feed/cjr.svg" alt="Logo da CJR">
+        </div>
+
+    </header>
+    <main>
+        
+        <button id="criar_publicacao">Criar Publicação</button>
+        <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+            <div class="modal-header">
+                <img src="icones_modal/Vector-2.png">
+                <img src="icones_modal/italic.png">
+                <img src="icones_modal/Vector-1.png">
+                <img src="icones_modal/link.png">
+                <img src="icones_modal/Vector.png">
+                <img src="icones_modal/question-circle.png">
+            </div>
+            <div class="modal-body">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button id="botao_cancelar">Cancelar</button><button class="botao_publicar">Publicar</button>
+            </div>
+        </div>
+        <section class="lista_posts">
+        </section>
+    </main>
+    <script src="feed_perfil.js"></script>
+</body>
+</html>
