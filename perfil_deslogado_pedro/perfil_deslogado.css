@@ -24,36 +24,41 @@ header {
     padding: 0.25rem 2rem;
 }
 
-.caixa_perfil h3 {
+.cabecalho h3 {
     position: absolute;
     margin-top: 2rem;
-    margin-left: 61rem;
+    margin-left: 65rem;
     font-style: normal;
     font-weight: 700;
-    color: white;
+    color: #222E50;
 }
 
-.caixa_perfil h3 a {
+.cabecalho h3 a {
     text-decoration: none;
-    color: white;
+    color: #222E50;
 }
 
-.caixa_perfil h3 a:visited {
-    color: white;
+.cabecalho h3 a:visited {
+    color: #222E50;
 }
 
-.caixa_perfil img {
-    width: 3rem;
+.cabecalho button {
     height: 3rem;
-    border-radius: 50%;
-    margin-top: 1rem;
-    margin-left: 70rem;
+    width: 5.75rem;
+    margin: 1.1rem 0 0 73rem;
+    border-radius: 1rem;
+    border: none;
+    background: #222E50;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
 }
 
-.caixa_perfil a img {
-    height: 2rem;
-    margin-left: 1rem;
-    align-items:center;
+.cabecalho button a {
+    text-decoration: None;
+    color: white; 
 }
 
 .perfil {
@@ -73,27 +78,18 @@ header {
 
 .descricao {
     margin-left: 3rem;
+    align-items: baseline;
 }
 
 .descricao img {
     display: inline-block;
+    margin-left: 0.5rem;
 }
 
 .descricao h2 {
     display: inline;
     vertical-align:0.5rem;
-}
-
-.perfil button {
-    width: 9rem;
-    height: 2rem;
-    margin-left: 28rem;
-    margin-bottom: 1rem;
-    background-color: #111E3E;
-    color: white;
-    border-radius: 0.5rem;
-    border: none;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-left: 0.5rem;
 }
 
 .post {
