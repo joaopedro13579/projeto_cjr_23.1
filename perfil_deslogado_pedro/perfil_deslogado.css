@@ -91,6 +91,9 @@ header {
     vertical-align:0.5rem;
     margin-left: 0.5rem;
 }
+.texto h3 {
+    margin-left: 24rem;
+}
 
 .post {
     width: 35rem;

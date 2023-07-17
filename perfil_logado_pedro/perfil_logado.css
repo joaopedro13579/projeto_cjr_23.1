@@ -96,6 +96,10 @@ header {
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+.texto h3 {
+    margin-left: 24rem;
+}
+
 .post {
     width: 35rem;
     margin: 1rem auto;
