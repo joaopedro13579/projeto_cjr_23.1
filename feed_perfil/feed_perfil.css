@@ -24,41 +24,36 @@ header {
     padding: 0.25rem 2rem;
 }
 
-.cabecalho h3 {
+.caixa_perfil h3 {
     position: absolute;
     margin-top: 2rem;
-    margin-left: 65rem;
+    margin-left: 61rem;
     font-style: normal;
     font-weight: 700;
-    color: #222E50;
-}
-
-.cabecalho h3 a {
-    text-decoration: none;
-    color: #222E50;
-}
-
-.cabecalho h3 a:visited {
-    color: #222E50;
-}
-
-.cabecalho button {
-    height: 3rem;
-    width: 5.75rem;
-    margin: 1.1rem 0 0 73rem;
-    border-radius: 1rem;
-    border: none;
-    background: #222E50;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
     color: white;
-    text-decoration: none;
 }
 
-.cabecalho button a {
-    text-decoration: None;
-    color: white; 
+.caixa_perfil h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.caixa_perfil h3 a:visited {
+    color: white;
+}
+
+.caixa_perfil img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 70rem;
+}
+
+.caixa_perfil a img {
+    height: 2rem;
+    margin-left: 1rem;
+    align-items:center;
 }
 
 
