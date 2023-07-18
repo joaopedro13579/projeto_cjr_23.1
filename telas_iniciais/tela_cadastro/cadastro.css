@@ -1,102 +1,99 @@
 body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    width: 1440px;
-    height: 939px;
 }
+
 .cabecalho {
-    height: 86px;
-    width: 1440px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    width: 100vw;
+    height: 5rem;
     background: #8BC34A;
 }
 
 
 .caixa_logo {
     position: absolute;
-    width: 124px;
-    height: 44px;
-    margin: 21px 48px;
-    background: #D9D9D9;
-    border-radius: 16px;
+    width: 8rem;
+    height: 2.75rem;
+    margin: 1.3rem 3rem;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
 }
 
 .logo {
-    padding: 4px 32px;
+    padding: 0.25rem 2rem;
 }
+
 .cabecalho h3 {
     position: absolute;
-    top: 34px;
-    left: 1192px;
+    margin-top: 2rem;
+    margin-left: 65rem;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
     color: #222E50;
 }
 
-.cabecalho a {
+.cabecalho h3 a {
     text-decoration: none;
     color: #222E50;
 }
 
+.cabecalho h3 a:visited {
+    color: #222E50;
+}
+
 .cabecalho button {
-    position: absolute;
-    left: 1300px;
-    top: 19px;
-    height: 48px;
-    width: 92px;
-    background: #222E50;
-    border-radius: 16px;
+    height: 3rem;
+    width: 5.75rem;
+    margin: 1.1rem 0 0 73rem;
+    border-radius: 1rem;
     border: none;
+    background: #222E50;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
     color: white;
+    text-decoration: none;
 }
 
-button a:visited {
-    color: white;
-
+.cabecalho button a {
+    text-decoration: None;
+    color: white; 
 }
 
 main {
-    height: 973px;
-    width: 1437px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    width: 100vw;
+    height: 100vh;
     background-color:#111E3E;
     border: 1px solid #000000;
 }
 
-.logo_fundo {
+.logo_fundo img {
     position: absolute;
-    width: 778px;
-    height: 451px;
-    top: 323px;
+    width: 28rem;
+    height: 16rem;
+    left: 15rem;
+    top: 16rem;
 }
 .acesse_aqui{
-    top: 375px;
+    top: 19rem;
 }
+
 .caixa_cadastro {
     position: absolute;
-    height: 723px;
-    width: 547px;
-    margin: 85px 115px 131px 778px;
+    height: 35rem;
+    width: 33rem;
+    margin: 2rem 7rem 8rem 48rem;
     background: #222E50;
-    border-radius: 10px;
+    border-radius: 0.75rem;
 }
+
 form {
     position: absolute;
-    top: 220px;
-    left: 73px;
-    font-size: 16px;
+    top: 10rem;
+    left: 4.5rem;
+    font-size: 1rem;
     font-weight: 700;
-    line-height: 19px;
+    line-height: 1.2rem;
     letter-spacing: 0em;
     text-align: left;
     color: white;    
@@ -104,20 +101,20 @@ form {
 
 .input_padrao {
     display: block;
-    width: 401px;
-    height: 58px;
+    width: 25rem;
+    height: 2.5rem;
     background: #D9D9D9;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
-    margin: 15px 0px;
-    font-size: 19px;  
+    margin: 1rem 0;
+    font-size: 1.2rem;  
 }
 
 .input_padrao:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-    font-size: 19px;
+    font-size: 1rem;
 }
 
 input[type='file'] {
@@ -126,35 +123,37 @@ input[type='file'] {
 
 
 #foto {
-    width: 215px;
-    height: 203px;
-    top: 191px;
-    margin-left: 150px;
+    width: 10rem;
+    height: 10rem;
+    top: 11rem;
+    margin-left: 12rem;
     cursor: pointer;
 }
 
 form a {
     position: absolute;
-    width: 215px;
-    height: 19px;
-    margin: 27px 100px 0px ;
+    width: 13rem;
+    height: 1.2rem;
+    margin: 1.5px 6rem 0px ;
     text-decoration: none;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     color: #111E3E;
 }
 
 .botao_cadastrar {
     position: absolute;
-    width: 283px;
-    height: 50px;
-    margin: 44px 65px 94px 65px;
+    width: 17rem;
+    height: 3rem;
+    margin: 2rem 4rem 5.8rem 4rem;
     background: #D9D9D9;
-    border-radius: 15px;
+    border-radius: 1rem;
     border: none;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     color: #222E50;
+    cursor: pointer;
+    
 }
