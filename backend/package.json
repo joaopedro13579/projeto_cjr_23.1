@@ -1,0 +1,19 @@
+{
+  "name": "projeto_cjr",
+  "version": "1.0.0",
+  "description": "projeto trainee da cjr",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\Users\\pedro\\OneDrive\\Documentos\\projeto_cjr_23.1"
+  },
+  "author": "pedro_grupo15",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.16.1",
+    "prisma": "^4.16.1"
+  }
+}
